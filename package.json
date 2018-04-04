@@ -1,0 +1,31 @@
+{
+  "name": "winston-gelf",
+  "version": "1.0.0",
+  "description": "GELF transport for Winston",
+  "main": "./lib",
+  "scripts": {
+    "test": "mocha -b",
+    "lint": "eslint --format node_modules/eslint-friendly-formatter ."
+  },
+  "keywords": [
+    "logging",
+    "sysadmin",
+    "tools",
+    "winston",
+    "graylog2",
+    "GELF"
+  ],
+  "author": "Stanislav Gurnik",
+  "license": "MIT",
+  "dependencies": {
+    "winston-transport": "^3.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-friendly-formatter": "^2.0.6",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-mocha": "^4.11.0",
+    "mocha": "^5.0.5"
+  }
+}
