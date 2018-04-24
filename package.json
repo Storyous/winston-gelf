@@ -1,6 +1,6 @@
 {
-  "name": "winston-gelf",
-  "version": "1.0.0",
+  "name": "@storyous/winston-gelf",
+  "version": "0.0.1",
   "description": "GELF transport for Winston",
   "main": "./lib",
   "scripts": {
